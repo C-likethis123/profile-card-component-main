@@ -23,6 +23,35 @@ body {
 
 .profile {
   height: 80%;
+  padding: 5vh 5vh 2.5vh 5vh;
+  box-sizing: border-box;
+}
+
+.pic {
+  border-radius: 50%;
+  border: 1px solid white;
+  background-image: url("../images/image-victor.jpg");
+  background-position: center;
+  background-size: cover;
+  height: inherit;
+  width: inherit;
+}
+
+.info, .location {
+  text-align: center;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  font-size: 1.125rem;
+  justify-content: center;
+  padding-bottom: 0px;
+  .name {
+    font-weight: 700;
+    padding-right: 20px;
+  }
 }
 
 .stats-group {
