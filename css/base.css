@@ -5,30 +5,33 @@ html {
 
 body {
   padding: 25vh 5vh;
-  background-color: #19a2ae;
-  height: calc(100% - 25vh); }
+  background-color: #19a2ae; }
 
 .card {
   height: calc(100% - 25vh);
   background-color: white;
   margin: 0 auto;
   max-width: 350px;
-  min-width: 300px; }
+  min-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px; }
 
 .profile {
   height: 80%;
-  padding: 5vh 5vh 2.5vh 5vh;
+  padding: 10vh 5vh 5vh 5vh;
   box-sizing: border-box;
-  background: url("../images/bg-pattern-card.svg") no-repeat 50% 0%; }
+  background: url("../images/bg-pattern-card.svg") no-repeat 50% 0%;
+  border-radius: 10px; }
 
 .pic {
   border-radius: 50%;
-  border: 1px solid white;
+  margin: 0 auto;
+  border: 5px solid white;
   background-image: url("../images/image-victor.jpg");
   background-position: center;
   background-size: cover;
-  height: inherit;
-  width: inherit; }
+  height: 96px;
+  width: 96px; }
 
 .info, .location {
   text-align: center;
