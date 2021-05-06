@@ -1,3 +1,6 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 // Common styles
 
 $small-text-color: hsl(0, 0%, 59%);
@@ -8,6 +11,7 @@ $darkblue: hsl(228, 45%, 44%);
 
 html {
   height: 100%;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 body {
@@ -51,7 +55,12 @@ body {
   .name {
     font-weight: 700;
     padding-right: 20px;
+    color: $bolded-text;
   }
+}
+
+.age, .location {
+  color: $small-text-color;
 }
 
 .stats-group {
@@ -65,11 +74,17 @@ body {
     flex: 1;
     text-align: center;
     font-size: 0.75rem;
+    color: $small-text-color;
+    letter-spacing: 2px;
+    line-height: 1rem;
   }
 
   .stats-num {
     font-size: 1.25rem;
     font-weight: 700;
+    color: $bolded-text;
+    letter-spacing: initial;
+    line-height: initial;
   }
 }
 
