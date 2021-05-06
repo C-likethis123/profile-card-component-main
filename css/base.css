@@ -1,8 +1,14 @@
+html {
+  height: 100%; }
+
 body {
-  padding: 25vh 5vh; }
+  padding: 25vh 5vh;
+  background-color: #19a2ae;
+  height: calc(100% - 25vh); }
 
 .card {
-  height: calc(100%-25vh); }
+  height: calc(100% - 25vh);
+  background-color: white; }
 
 .attribution {
   font-size: 11px;

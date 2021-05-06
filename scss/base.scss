@@ -6,12 +6,19 @@ $background: hsl(185, 75%, 39%);
 $bolded-text: hsl(229, 23%, 23%);
 $darkblue: hsl(228, 45%, 44%);
 
+html {
+  height: 100%;
+}
+
 body {
   padding: 25vh 5vh;
+  background-color: $background;
+  height: calc(100% - 25vh);
 }
 
 .card {
-  height: calc(100%-25vh);
+  height: calc(100% - 25vh);
+  background-color: white;
 }
 
 .attribution { 
