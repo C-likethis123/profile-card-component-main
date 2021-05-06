@@ -23,6 +23,9 @@ body {
 .card {
   height: calc(100% - 25vh);
   background-color: white;
+  margin: 0 auto;
+  max-width: 350px;
+  min-width: 300px;
 }
 
 .profile {
