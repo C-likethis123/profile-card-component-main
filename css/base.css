@@ -5,7 +5,11 @@ html {
 
 body {
   padding: 25vh 5vh;
-  background-color: #19a2ae; }
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-position: bottom 500px right 200px, top 500px left 200px;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat; }
 
 .card {
   height: calc(100% - 25vh);
