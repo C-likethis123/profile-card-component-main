@@ -1,0 +1,23 @@
+// Common styles
+
+$small-text-color: hsl(0, 0%, 59%);
+$large-text-color: hsl(227, 10%, 46%);
+$background: hsl(185, 75%, 39%);
+$bolded-text: hsl(229, 23%, 23%);
+$darkblue: hsl(228, 45%, 44%);
+
+body {
+  padding: 25vh 5vh;
+}
+
+.card {
+  height: calc(100%-25vh);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  a {
+    color: $darkblue;
+  }
+}
